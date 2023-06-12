@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.paginanotas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-itens span {
+  padding: 20px;
+}
+
+.menu-imagem img{
+  height: 100px;
+}
+
+.menu-imagem2 img{
+  height: 100px;
+  margin-right: 170px;
+}
+.banner img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.banner img {
+  width: 100%;
+
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding: 5em;
+}
+
+.titulo h1 {
+  font-size: 30pt;
+  background-color: #C0F798;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.diferenciais {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-diferenciais{
+  width: 20vw;
+  height: 50vh;
+  border-radius: 30px;
+}
+
+.card-diferenciais img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.card-diferenciais img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.galeria {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.galeria-titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.galeria-titulo h1 {
+  margin-top: 100px;
+  font-size: 30pt;
+}
+
+.card-galeria {
+  width: 20vw;
+  height: 50vh;
+  border-radius: 30px;
+}
+
+.card-galeria img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.historia {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  animation: forwards;
+}
+
+.familia {
+  text-align: center;
+}
+.familia img {
+  width: 450px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.canto {
+  align-items: flex-end;
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo-contato2 img {
+  width: 200px;
+  height: 120px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.menu-itens2 {
+  align-items: flex-start;
+}
+
+.gerenciamento {
+  background-color: #C0F798;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.nome-aluno {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: center;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
